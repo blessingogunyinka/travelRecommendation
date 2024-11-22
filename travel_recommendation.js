@@ -12,7 +12,7 @@ clearButton.addEventListener("click", clearSearch) ;
 async function getRecommendationResults() {
 
     const recommendationResults = 
-    await fetch("http://127.0.0.1:3000/travel_recommendation_api.json")
+    await fetch("https://blessingogunyinka.github.io/travelRecommendation/travel_recommendation_api.json")
     .then(response => response.json())
     .then(data => {
         return data ;  
